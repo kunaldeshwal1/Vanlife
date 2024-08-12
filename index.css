@@ -8,7 +8,7 @@ html, body {
     background-color: #FFF7ED;
     font-family: "Inter", sans-serif;
 }
-
+@media screen and (max-width: 720px) {
 a {
     text-decoration: unset;
     color: unset;
@@ -737,4 +737,5 @@ img.graph {
 .host-reviews .review-star {
     color: #ff8c38;
     margin-right: 5px;
+}
 }
